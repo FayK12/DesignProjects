@@ -22,14 +22,20 @@
                         <li>
                             <a href="">HOME</a>
                         </li>
-                        <li>
+                        <li class = "dropdown">
                             <a href="">ABOUT</a>
+                            <div class="dropdown-child">
+                                <a href="">Our Mission</a>
+                                <a href="">Our Vision</a>
+                                <a href="">History</a>
+                            </div>
                         </li>
                         <li>
                             <a href="">BLOG</a>
                         </li>
-                        <li class="contact">
+                        <li >
                             <a href="">CONTACT</a>
+                            
                         </li>
                     </ul>
                 </nav>
@@ -85,35 +91,21 @@
     <!-- footer -->
     <footer>
         <div class="wrapper"> 
+            
             <div class="flex-container-footer">
             <p>travel</p> 
-            <nav>
-                <ul class="test">
-                    <li>
-                        <a href="">HOME</a>
-                    </li>
-                    <li>
-                        <a href="">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="">BLOG</a>
-                    </li>
-                    <li>
-                        <a href="">CONTACT</a>
-                    </li>
+            <nav class = "column-wrap">
+                <ul>
+                    <li> <a href="">HOME</a> </li>
+                    <li> <a href="">ABOUT</a> </li>
+                    <li> <a href="">BLOG</a> </li>
+                    <li> <a href="">CONTACT</a> </li>
                 </ul>
-            </nav>
-            <nav>
-                <ul class="test">
-                    <li>
-                        <a href="">TWITTER</a>
-                    </li>
-                    <li>
-                        <a href="">FACEBOOK</a>
-                    </li>
-                    <li>
-                        <a href="">LINKEDIN</a>
-                    </li>
+          
+                <ul>
+                    <li> <a href="">TWITTER</a> </li>
+                    <li> <a href="">FACEBOOK</a> </li>
+                    <li> <a href="">LINKEDIN</a> </li>
                 </ul>
             </nav>
         <!-- use flex wrap to wrap the links -->
@@ -121,6 +113,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
             </p>
         </div>
+        <hr>
             <p class="copyright">
                 Travel Agency
             </p>
